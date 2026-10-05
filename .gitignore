@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# =========================
+# TabPFN / Model Cache
+# =========================
+.tabpfn/
+tabpfn_cache/
+.tabpfn_cache/
+huggingface/
+.cache/
+.cache/huggingface/
+
+# =========================
+# Private Business Data
+# =========================
+data/*
+!data/.gitkeep
+
+private_data/
+real_data/
+customer_data/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+~$*.csv
+
+# =========================
+# Generated Outputs
+# =========================
+outputs/
+results/
+logs/
+*.log
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Local Streamlit files
+# =========================
+.streamlit/.cache/
